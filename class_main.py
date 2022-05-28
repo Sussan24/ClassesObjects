@@ -15,9 +15,9 @@ class Student:
         print("Age was changed from", self.age, "to", change_age)
 
     def add_track(self, add_track):
-        self.add_track = add_track
+        self.tracks = add_track
         #print("add_track was added to", self.tracks)
-        print("add track to", self.tracks)
+        print(format(self.tracks), "was added to tracks")
 
     def get_score(self, get_score):
         self.get_score = self.score
